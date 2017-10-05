@@ -9,7 +9,6 @@ SUBDIRS = \
 	net \
 	time \
 	ann \
-	formation \
 	common \
 	monitor \
 	player \
@@ -23,7 +22,6 @@ lib_LTLIBRARIES = librcsc_agent.la
 librcsc_agent_la_SOURCES =
 librcsc_agent_la_LIBADD = \
 	util/librcsc_util.la \
-	formation/librcsc_formation.la \
 	common/librcsc_common.la \
 	monitor/librcsc_monitor.la \
 	player/librcsc_player.la \
