@@ -8,7 +8,6 @@ SUBDIRS = \
 	rcg \
 	net \
 	time \
-	ann \
 	common \
 	monitor \
 	player \
