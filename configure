@@ -16971,7 +16971,7 @@ fi
 # generated files
 ##################################################
 
-ac_config_files="$ac_config_files Doxyfile librcsc.pc librcsc.spec librcsc-config librcscenv Makefile rcsc/Makefile rcsc/ann/Makefile rcsc/geom/Makefile rcsc/geom/triangle/Makefile rcsc/gz/Makefile rcsc/monitor/Makefile rcsc/net/Makefile rcsc/param/Makefile rcsc/rcg/Makefile rcsc/time/Makefile rcsc/util/Makefile rcsc/common/Makefile rcsc/player/Makefile rcsc/action/Makefile rcsc/coach/Makefile rcsc/trainer/Makefile example/Makefile src/Makefile"
+ac_config_files="$ac_config_files Doxyfile librcsc.pc librcsc.spec librcsc-config librcscenv Makefile rcsc/Makefile rcsc/geom/Makefile rcsc/geom/triangle/Makefile rcsc/gz/Makefile rcsc/monitor/Makefile rcsc/net/Makefile rcsc/param/Makefile rcsc/rcg/Makefile rcsc/time/Makefile rcsc/util/Makefile rcsc/common/Makefile rcsc/player/Makefile rcsc/action/Makefile rcsc/coach/Makefile rcsc/trainer/Makefile example/Makefile src/Makefile"
 
 
 cat >confcache <<\_ACEOF
@@ -18080,7 +18080,6 @@ do
     "librcscenv") CONFIG_FILES="$CONFIG_FILES librcscenv" ;;
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
     "rcsc/Makefile") CONFIG_FILES="$CONFIG_FILES rcsc/Makefile" ;;
-    "rcsc/ann/Makefile") CONFIG_FILES="$CONFIG_FILES rcsc/ann/Makefile" ;;
     "rcsc/geom/Makefile") CONFIG_FILES="$CONFIG_FILES rcsc/geom/Makefile" ;;
     "rcsc/geom/triangle/Makefile") CONFIG_FILES="$CONFIG_FILES rcsc/geom/triangle/Makefile" ;;
     "rcsc/gz/Makefile") CONFIG_FILES="$CONFIG_FILES rcsc/gz/Makefile" ;;
@@ -19602,8 +19601,6 @@ _LT_EOF
     "Makefile":F) test -f librcsc-config && chmod +x librcsc-config
                   test -f librcscenv && chmod +x librcscenv ;;
     "rcsc/Makefile":F) test -f librcsc-config && chmod +x librcsc-config
-                  test -f librcscenv && chmod +x librcscenv ;;
-    "rcsc/ann/Makefile":F) test -f librcsc-config && chmod +x librcsc-config
                   test -f librcscenv && chmod +x librcscenv ;;
     "rcsc/geom/Makefile":F) test -f librcsc-config && chmod +x librcsc-config
                   test -f librcscenv && chmod +x librcscenv ;;
