@@ -71,16 +71,16 @@ LTLIBRARIES = $(noinst_LTLIBRARIES)
 librcsc_action_la_LIBADD =
 am_librcsc_action_la_OBJECTS = basic_actions.lo bhv_before_kick_off.lo \
 	bhv_emergency.lo bhv_go_to_point_look_ball.lo \
-	bhv_scan_field.lo  \
-	body_clear_ball2009.lo body_go_to_point2009.lo \
-	body_go_to_point2010.lo body_go_to_point_dodge.lo \
-	body_hold_ball2008.lo body_intercept2009.lo \
-	body_kick_collide_with_ball.lo body_kick_one_step.lo \
-	body_kick_to_relative.lo body_smart_kick.lo body_stop_ball.lo \
-	body_stop_dash.lo intention_time_limit_action.lo \
-	neck_scan_field.lo neck_scan_players.lo \
-	neck_turn_to_ball_and_player.lo neck_turn_to_ball_or_scan.lo \
-	neck_turn_to_goalie_or_scan.lo neck_turn_to_player_or_scan.lo \
+	bhv_scan_field.lo body_clear_ball2009.lo \
+	body_go_to_point2009.lo body_go_to_point2010.lo \
+	body_go_to_point_dodge.lo body_hold_ball2008.lo \
+	body_intercept2009.lo body_kick_collide_with_ball.lo \
+	body_kick_one_step.lo body_kick_to_relative.lo \
+	body_smart_kick.lo body_stop_ball.lo body_stop_dash.lo \
+	intention_time_limit_action.lo neck_scan_field.lo \
+	neck_scan_players.lo neck_turn_to_ball_and_player.lo \
+	neck_turn_to_ball_or_scan.lo neck_turn_to_goalie_or_scan.lo \
+	neck_turn_to_player_or_scan.lo \
 	neck_turn_to_low_conf_teammate.lo view_synch.lo kick_table.lo
 librcsc_action_la_OBJECTS = $(am_librcsc_action_la_OBJECTS)
 DEFAULT_INCLUDES = -I.@am__isrc@ -I$(top_builddir)

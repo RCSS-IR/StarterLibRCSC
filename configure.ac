@@ -192,7 +192,6 @@ AC_CONFIG_FILES([Doxyfile
                  librcscenv
                  Makefile
                  rcsc/Makefile
-                 rcsc/ann/Makefile
                  rcsc/geom/Makefile
                  rcsc/geom/triangle/Makefile
                  rcsc/gz/Makefile
