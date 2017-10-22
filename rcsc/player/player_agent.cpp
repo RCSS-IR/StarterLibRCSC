@@ -2445,10 +2445,10 @@ PlayerAgent::Impl::doNeckAction()
     }
     else
     {
-        std::cerr << agent_.world().teamName() << ' '
-                  << agent_.world().self().unum() << ": "
-                  << agent_.world().time()
-                  << "  WARNING. no turn_neck." << std::endl;
+//        std::cerr << agent_.world().teamName() << ' '
+//                  << agent_.world().self().unum() << ": "
+//                  << agent_.world().time()
+//                  << "  WARNING. no turn_neck." << std::endl;
     }
 }
 
