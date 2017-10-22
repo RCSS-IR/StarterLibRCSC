@@ -80,7 +80,7 @@ Body_SmartKick::execute( PlayerAgent * agent )
     double first_speed = std::min( M_first_speed, ServerParam::i().ballSpeedMax() );
     double first_speed_thr = std::max( 0.0, M_first_speed_thr );
     int max_step = std::max( 1, M_max_step );
-
+    max_step = std::min(max_step,2);
     if ( rcsc::KickTable::instance().simulate( wm,
                                                M_target_point,
                                                first_speed,
