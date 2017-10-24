@@ -9,7 +9,6 @@ librcsc_action_la_SOURCES = \
 	bhv_emergency.cpp \
 	bhv_go_to_point_look_ball.cpp \
 	bhv_scan_field.cpp \
-	body_clear_ball2009.cpp \
 	body_go_to_point2009.cpp \
 	body_go_to_point2010.cpp \
 	body_go_to_point_dodge.cpp \
@@ -49,8 +48,6 @@ librcsc_actioninclude_HEADERS = \
 	bhv_neck_body_to_ball.h \
 	bhv_neck_body_to_point.h \
 	bhv_scan_field.h \
-	body_clear_ball.h \
-	body_clear_ball2009.h \
 	body_go_to_point.h \
 	body_go_to_point2009.h \
 	body_go_to_point2010.h \
