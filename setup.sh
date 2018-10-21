@@ -3,7 +3,7 @@ sudo apt-get install g++ build-essential libboost-all-dev qt4-dev-tools libaudio
 
 sudo chmod 777 * -R
 
-./configure
+./configure --prefix=/usr/local/stdlib/lib
 
 make
 
