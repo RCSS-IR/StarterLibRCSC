@@ -1903,7 +1903,22 @@ PlayerAgent::Impl::analyzeFullstate( const char * msg )
     fullstate_.parse( msg,
                       agent_.config().version(),
                       current_time_ );
-    if ( agent_.world().ourSide() == RIGHT )
+    const WorldModel & wm = agent_.world();
+    const PenaltyKickState * state = wm.penaltyKickState();
+    if ( agent_.world().gameMode().isPenaltyKickMode() )
+    {
+        if (state->onfieldSide() == LEFT){
+            if ( agent_.world().ourGoalieUnum() != agent_.world().self().unum() )
+                fullstate_.reverse();
+
+        }
+        else
+        {
+            if ( agent_.world().ourGoalieUnum() == agent_.world().self().unum() )
+                fullstate_.reverse();
+        }
+    }
+    else if ( agent_.world().ourSide() == RIGHT)
     {
         fullstate_.reverse();
     }

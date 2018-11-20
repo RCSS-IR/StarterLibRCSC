@@ -33,6 +33,7 @@
 #define RCSC_PLAYER_AGENT_H
 
 #include <rcsc/player/world_model.h>
+#include <rcsc/player/penalty_kick_state.h>
 #include <rcsc/player/action_effector.h>
 #include <rcsc/player/debug_client.h>
 #include <rcsc/player/player_config.h>
