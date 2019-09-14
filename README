@@ -1,7 +1,0 @@
-robocup agent2d for student's league
-
-./configure --prefix=/usr/local/StarterLibRCSC/lib
-make
-sudo make install
-
-
