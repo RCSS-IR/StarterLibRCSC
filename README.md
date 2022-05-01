@@ -2,7 +2,7 @@
 Library for Starter Agent2D  
 ## Instalation  
 ```bash  
-./configure --prefix=/usr/local/StarterLibRCSC/lib
+./configure --prefix=/usr/local/StarterLibRCSC/
 make  
 sudo make install
 ```  
